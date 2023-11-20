@@ -1,4 +1,4 @@
-name: Deploy to Develop
+name: Deploy to Development
 
 on:
   pull_request:
@@ -10,7 +10,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: develop
+    environment: development
     if: github.event.pull_request.merged == true
     steps:
       - name: Checkout code
