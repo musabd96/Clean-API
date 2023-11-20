@@ -1,9 +1,9 @@
-name: Deploy to Main
+name: Deploy to Production
 
 on:
   pull_request:
     branches:
-      - main
+      - production
     types:
       - closed
 
@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy to Main Environment
-        run: echo "Deploying to Main Environment..."
+        run: echo "Deploying to Production Environment..."
