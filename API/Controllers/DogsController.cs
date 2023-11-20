@@ -37,7 +37,7 @@ namespace API.Controllers
 
 
         [HttpPost]
-        [Route("updateDogById/{id}")]
+        [Route("updateDogById")]
         public async Task<IActionResult> UpdateDogById(Guid dogId, string name)
         {
             return Ok(await _mediatR.Send(new UpdateDogByIdQuery(dogId, name)));
