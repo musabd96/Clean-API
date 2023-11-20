@@ -3,7 +3,7 @@ name: Deploy to Development
 on:
   pull_request:
     branches:
-      - develop
+      - development
     types:
       - closed
 
