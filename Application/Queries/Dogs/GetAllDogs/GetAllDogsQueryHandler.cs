@@ -2,7 +2,7 @@
 using Infrastructure.Database;
 using MediatR;
 
-namespace Application.Queries.Dogs
+namespace Application.Queries.Dogs.GetAllDogs
 {
     internal class GetAllDogsQueryHandler : IRequestHandler<GetAllDogsQuery, List<Dog>>
     {
