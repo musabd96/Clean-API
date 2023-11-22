@@ -1,4 +1,4 @@
-﻿using Application.Queries.Dogs;
+﻿using Application.Queries.Dogs.GetAllDogs;
 using Application.Queries.Dogs.GetDogById;
 using Application.Queries.Dogs.UpdateDogById;
 using MediatR;
